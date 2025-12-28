@@ -1,0 +1,82 @@
+[
+  {
+    "marca": "Toyota",
+    "modelo": "Corolla",
+    "anio": 2020,
+    "seguro": 80,
+    "prestamo": 200,
+    "patente": 50,
+    "nafta": 120,
+    "parking": 60
+  },
+  {
+    "marca": "Ford",
+    "modelo": "Fiesta",
+    "anio": 2018,
+    "seguro": 70,
+    "prestamo": 150,
+    "patente": 45,
+    "nafta": 100,
+    "parking": 50
+  },
+  {
+    "marca": "Chevrolet",
+    "modelo": "Onix",
+    "anio": 2021,
+    "seguro": 75,
+    "prestamo": 180,
+    "patente": 55,
+    "nafta": 110,
+    "parking": 55
+  },
+  {
+    "marca": "Volkswagen",
+    "modelo": "Golf",
+    "anio": 2019,
+    "seguro": 85,
+    "prestamo": 220,
+    "patente": 60,
+    "nafta": 130,
+    "parking": 65
+  },
+  {
+    "marca": "Honda",
+    "modelo": "Civic",
+    "anio": 2020,
+    "seguro": 90,
+    "prestamo": 210,
+    "patente": 58,
+    "nafta": 125,
+    "parking": 70
+  },
+  {
+    "marca": "Nissan",
+    "modelo": "Sentra",
+    "anio": 2017,
+    "seguro": 65,
+    "prestamo": 140,
+    "patente": 40,
+    "nafta": 95,
+    "parking": 45
+  },
+  {
+    "marca": "Hyundai",
+    "modelo": "Elantra",
+    "anio": 2022,
+    "seguro": 95,
+    "prestamo": 230,
+    "patente": 65,
+    "nafta": 135,
+    "parking": 75
+  },
+  {
+    "marca": "Peugeot",
+    "modelo": "208",
+    "anio": 2019,
+    "seguro": 70,
+    "prestamo": 160,
+    "patente": 48,
+    "nafta": 105,
+    "parking": 50
+  }
+]
