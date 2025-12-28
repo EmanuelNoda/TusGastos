@@ -47,5 +47,33 @@
          Costo anual: USD ${totalAnual.toFixed(2)}`;
     }
   </script>
+  <button type="button" onclick="buscarDatos()">Cargar gastos aproximados</button>
+
+<script>
+async function buscarDatos() {
+  const marca = document.getElementById("marca").value.trim();
+  const modelo = document.getElementById("modelo").value.trim();
+  const anio = parseInt(document.getElementById("anio").value);
+
+  const response = await fetch("data.json");
+  const autos = await response.json();
+
+  const auto = autos.find(a =>
+    a.marca.toLowerCase() === marca.toLowerCase() &&
+    a.modelo.toLowerCase() === modelo.toLowerCase() &&
+    a.anio === anio
+  );
+
+  if (auto) {
+    document.getElementById("seguro").value = auto.seguro;
+    document.getElementById("prestamo").value = auto.prestamo;
+    document.getElementById("patente").value = auto.patente;
+    document.getElementById("nafta").value = auto.nafta;
+    document.getElementById("parking").value = auto.parking;
+  } else {
+    alert("No se encontraron datos para ese auto.");
+  }
+}
+</script>
 </body>
 </html>
